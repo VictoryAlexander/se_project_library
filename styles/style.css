@@ -35,6 +35,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -133,6 +134,7 @@
   justify-content: space-between;
   gap: 40px;
   list-style-type: none;
+  padding: 0;
 }
 
 .card {
@@ -270,7 +272,7 @@
 }
 
 .person_name_feynman {
-  top: 30px;
+  top: -30px;
   right: 319px;
   /* Use correct values of top/right/bottom/left properties to position the element */
 }
@@ -343,12 +345,12 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-basis: auto;
   /* Add styles */
 }
 
 .step {
   max-width: 220px;
+  flex-basis: auto;
   /* Add styles */
 }
 
@@ -416,7 +418,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   min-height: 224px;
   padding: 60px 102px 60px 80px;
